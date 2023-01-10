@@ -1,0 +1,63 @@
+
+.add-form{
+    display: flex;
+    padding: 3rem;
+    background-color: black;
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 10px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+input{
+    outline: none;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+
+button{
+    padding: .5rem;
+    font-size: 1rem;
+    border: unset;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: darkgreen;
+}
+
+.number-of-posts{
+    font-size: 2rem !important;
+    font-weight: 600;
+    color: black;
+    background-color: gold;
+    padding: 1rem 6rem;
+    border-radius: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}

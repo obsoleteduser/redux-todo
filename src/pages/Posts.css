@@ -1,0 +1,56 @@
+.Posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.item{
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.number-of-posts{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+}
+
+.date{
+    background-color: gold;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.edit{
+
+    background-color: yellow;
+    color: black;
+    border-radius: 10px;
+    margin-right: 1rem;
+
+}
+
+.data{
+    outline: none;
+}
+
+.confirm{
+    margin-right: 1rem;    
+}

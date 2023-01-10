@@ -1,0 +1,23 @@
+.Header{
+    padding: 1rem;
+    background-color: black;
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:not(.link){
+    text-decoration: none;
+    padding: .5rem;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
