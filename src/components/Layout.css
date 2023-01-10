@@ -13,6 +13,7 @@
 @media screen and (min-width: 640px) {
    .layout{
     background-size: auto;
+    background-repeat: repeat;
     
    }
   }
