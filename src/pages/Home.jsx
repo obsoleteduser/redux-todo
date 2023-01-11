@@ -34,7 +34,7 @@ export const Home = () => {
         <h1>Add Post</h1>
         <div className='Home'>
         <form ref={formRef} onSubmit={(event)=>{event.preventDefault()}} action="">
-            <input onChange={inputHandler} type="text" required name="" id="" placeholder='Add a post' />
+            <input onChange={inputHandler} type="text" name="" id="" placeholder='Add a post' />
             <button onClick={clickHandler}>ADD</button>
         </form>
     </div>
