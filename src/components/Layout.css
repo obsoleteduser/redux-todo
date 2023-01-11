@@ -6,7 +6,7 @@
     width: 100%;
     height: 100vh;
     background: url(../assets/img/pexels-visit-greenland-360912.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
