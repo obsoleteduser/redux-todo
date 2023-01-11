@@ -12,6 +12,17 @@
     color: white;
     text-decoration: none;
     font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.link:hover{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border-radius: 5px;
 }
 
 a:not(.link){
@@ -20,4 +31,8 @@ a:not(.link){
     background-color: red;
     color: white;
     border-radius: 5px;
+}
+
+a:not(.link):active{
+    background-color: darkred;
 }
