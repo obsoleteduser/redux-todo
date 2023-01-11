@@ -20,8 +20,9 @@ export const Home = () => {
 
     const clickHandler = () =>{
        currentInput.trim() && dispatch(AddItem({data: currentInput, id, date: new Date()}))
-       toast.success("Item has been successfully added")
+       currentInput && toast.success("Item has been successfully added")
        formRef.current.reset()
+       setCurrentInput('')
     }
 
 
